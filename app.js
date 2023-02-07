@@ -1,3 +1,4 @@
+
 // Exercise 1 Section
 console.log("EXERCISE 1:\n==========\n");
 
@@ -7,7 +8,7 @@ function printOdds(count) {
         return;
     }
 
-    for(let i =0; i <= count; i++) {
+    for(let i = 0; i <= count; i++) {
         if (i % 2 != 0) {
             console.log(i);
         }
@@ -71,6 +72,7 @@ function quadrant(x, y) {
  }
  else if (x < 0 && y < 0) {
     console.log('(${x}, ${y}) is in Quadrant 3');
+
  }
  else if (x > 0 && y < 0) {
     console.log('(${x}, ${y}) is in Quadrant 4');
